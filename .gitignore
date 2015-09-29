@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Globally Useful gitignores
 #
 #This directory contains globally useful gitignores,
@@ -113,6 +114,8 @@ Session.vim
 *.qmlproject.user
 *.qmlproject.user.*
 
+=======
+>>>>>>> 77fc5cf7f6a3fca69f01903ef13f6cda493981ee
 # Compiled Object files
 *.slo
 *.lo
@@ -141,6 +144,9 @@ Session.vim
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
 
 #Backup file
 *~
+=======
+>>>>>>> 77fc5cf7f6a3fca69f01903ef13f6cda493981ee
