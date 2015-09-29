@@ -33,31 +33,35 @@ QMAKE_CXXFLAGS += -std=c++11
 TEMPLATE = app
 
 # add the source files
-SOURCES += main.cpp \
-    deep_matching.cpp \
-    std.cpp \
-    io.cpp \
-    pixel_desc.cpp \
-    maxfilter.cpp \
-    hog.cpp \
-    image.cpp \
-    conv.cpp \
-    mainwindow.cpp \
-    deepmtchinfo.cpp
+SOURCES +=  \
+    src/main.cpp \
+    src/deep_matching.cpp \
+    src/std.cpp \
+    src/io.cpp \
+    src/pixel_desc.cpp \
+    src/maxfilter.cpp \
+    src/hog.cpp \
+    src/image.cpp \
+    src/conv.cpp \
+    src/mainwindow.cpp \
+    src/deepmtchinfo.cpp
 
 # add the headers
 HEADERS += \
-    std.h \
-    array_types.h \
-    conv.h \
-    maxfilter.h \
-    image.h \
-    pixel_desc.h \
-    deep_matching.h \
-    io.h \
-    hog.h \
-    mainwindow.h \
-    deepmtchinfo.h
+    src/std.h \
+    src/array_types.h \
+    src/conv.h \
+    src/maxfilter.h \
+    src/image.h \
+    src/pixel_desc.h \
+    src/deep_matching.h \
+    src/io.h \
+    src/hog.h \
+    src/mainwindow.h \
+    src/deepmtchinfo.h
+
+FORMS += \
+    src/mainwindow.ui
 
 # add GUI
 # FORMS    += src/PclViewer.ui
@@ -148,8 +152,6 @@ LIBS += -L/usr/lib/x86_64-linux-gnu \
         -lpng \
         -lblas
 
-FORMS += \
-    mainwindow.ui
 
 
 
